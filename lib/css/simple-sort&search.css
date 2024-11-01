@@ -1,0 +1,55 @@
+/*
+*/
+/*トグル用css*/
+.sims_hiddenwrap {
+	display: none;
+}
+
+/**
+*タクソノミ検索
+*/
+/*チェックボックス、ラジオボタン*/
+.sims_toglewrap{
+	display: inline-block;
+}
+
+.sims_toglewrap .sims_showbutton {
+	padding: 4px;
+	border: solid 1px rgb(202, 202, 202);
+	display: table;
+}
+
+.sims_toglewrap .sims_showbutton:hover {
+	opacity: .9;
+	cursor: pointer;
+}
+
+.sims_checkbox label {
+	font-size: .9em;
+	padding: 0 3px;
+	display: inline-block;
+	border: solid 1px rgb(202, 202, 202);
+	margin: 3px;
+}
+
+.sims_checkbox label:last-child {
+	margin-right: 0;
+}
+
+/*表示数変更*/
+.sims_postsnum-number {
+	width: 2.5em;
+}
+
+/*共通*/
+.sims_select {
+	margin-bottom: 5px;
+	margin-top: 5px;
+	display: inline-block;
+}
+
+.sims_form {
+	margin-bottom: 5px;
+	margin-top: 5px;
+	display: inline-block;
+}
